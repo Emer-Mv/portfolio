@@ -1,0 +1,176 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	margin-left: 100px;
+	background:url('imagens/imagem9.jpg') top center fixed ; /*define a imagem de fundo e o alinhamento do site*/
+	align-items: center;
+	width: 1700px;
+	margin:auto;
+}
+
+#corpo {
+	padding: auto;
+	margin:  auto;
+	
+	width: 1400px;
+	
+	margin-top: 10px;
+	
+	font: 16px Arial, helvetica, sans-serif;
+}
+
+
+#menu{ /*codigo para alinhamento e edição do menu*/
+	margin: auto;
+	align-items: center;
+	border-radius: 20px 20px 20px 20px;
+	width:80%;
+	background: #f1f104;
+	padding: 20px;
+}
+
+#capa {   /*define imagem de capa da pg index */
+	margin: auto;
+	border-radius: 20px 20px 20px 20px;
+	background: aliceblue url('imagens/imagem1.jpg');
+	width:100%;
+	height: 600px;
+	display:grid;
+}
+
+#conteudo{
+	margin: 10px auto;
+	width: 80%;
+	border-radius: 20px 20px 20px 20px;
+	background:#c7c7bc;
+	padding: 10px;
+
+}
+
+#texto{/*formata os textos das paginas*/
+	text-align: center;
+	color:  #070707;
+	align-items: center;
+	background-color: rgba(78, 77, 77, 0.185);
+	margin:auto;
+	margin-top: 15px;
+	width: 90%;
+	height: auto;
+	border-radius: 20px 20px 20px 20px;
+	padding:60px;
+	padding-top: 10px;
+
+}
+
+#perfil{/*codigo para foto de perfil*/
+	position:absolute;
+	align-items: center;
+	margin-right: 750px;
+	margin-left: 50px;
+	margin-bottom: 950px;
+	margin-top: 150px;
+	border-radius:200px 200px 200px 200px;
+	width: 280px;
+	height: 280px;
+
+}
+
+#rodape{
+	margin-top: 10px;
+	
+	background-color: #c7c7bc;
+	text-align: center ;
+	border-radius: 20px 20px 20px 20px;
+	width: 1380px;
+	padding: 10px;
+}
+
+a{/*edição dos links*/
+	margin-right: 100px;
+	width: auto;
+	margin-left: 100px;
+	color: #111111;
+	text-decoration:none; 
+	font-weight: bold;
+	padding: 3px
+
+}
+
+#p{/*paragrafo da capa*/
+	text-align: center;
+	color:  #f1f104;
+	align-items: center;
+	background-color: rgba(167, 165, 165, 0.185);
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 750px;	
+	width: auto;
+	height: 250px;
+	border-radius: 20px 20px 20px 20px;
+	padding: 10px;
+	padding-top: 10px;
+
+}
+
+h1{/*edição dos H1 do site*/
+	text-align: center;
+	color:#f1f104;
+	font-size: 1.8em;
+
+}
+
+#projetos{/*edção Div Porjeto*/
+	width: 80%;
+	height: 700px;
+	position: relative;
+	border-radius: 20px 20px 20px 20px;
+	background:#c7c7bc;
+	padding: 10px;
+	margin:10px auto;
+
+}
+
+#p1{/*porjeto1*/
+	text-align: center;
+	float: left;
+	margin-top: 150px;
+	margin-right: 10px;
+	margin-left: 30px;
+
+}
+
+#p2{/*projeto2*/
+	text-align: center;
+	margin-top: 150px;
+	margin-right: 0px;
+	margin-left: 210px;
+	float: left;
+
+}
+
+#p3{/*projeto3*/
+	text-align: center;
+	margin-top: 150px;
+	float: right;
+	margin-right: 30px;
+	margin-left:10px;
+
+}
+
+#contatos{
+	padding-top: 50px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+ ul{
+	align-items: center;
+	list-style: none;
+ }
+
+ ul a {
+	color: #f1f104;
+ }
